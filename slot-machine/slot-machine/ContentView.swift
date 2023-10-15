@@ -30,27 +30,116 @@ struct Hexagon: Shape {
     }
 }
 
-enum Choice: Int, Identifiable {
-    
-    var Id: Int {
-        rawValue
-    }
-    case success, failure
-}
+//enum Choice: Int, Identifiable {
+//    
+//    var Id: Int {
+//        rawValue
+//    }
+//    case success, failure
+//}
 
 struct ContentView: View {
     
-    @State public var symbols = ["eating","happy","love"]
-    @State public var numbers = [0,1,2]
+    @State public var symbols = ["eating","happy","love","scary","sleeping"]
+    @State public var numbers = [0, 1, 2, 3, 4, 5]
     @State public var counter = 0
-    @State public var showingAlert = Choice?
+//        @State public var showingAlert = Choice?
     
     var body: some View {
-         Text("Hello, world!")
-            .padding()
+        ZStack {
+            Image("sunshine")
+                .resizable()
+                .ignoresSafeArea(.all)
+            VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 80) {
+                HStack {
+                    Image("fire")
+                        .resizable()
+                        .scaledToFit()
+                        .shadow(color: .orange, radius: 1, y: 3)
+                    Text("Slot Machine")
+                        .font(.system(size: 30))
+                        .fontWeight(.black)
+                        .shadow(color: .orange, radius: 1, y: 3)
+                    Image("fire")
+                        .resizable()
+                        .scaledToFit()
+                        .shadow(color: .orange, radius: 1, y: 3)
+                }
+                .frame(width: .infinity, height: 50, alignment: .center)
+                VStack(spacing: 15) {
+                    HStack(spacing: 35) {
+                        Hexagon()
+                            .fill(Color.gray.opacity(0.5))
+                            .frame(width: 100, height: 120, alignment: .center)
+                            .overlay(
+                            Image(symbols[numbers[0]])
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 80, height: 70, alignment: .center)
+                                .shadow(color: .gray, radius: 4, x: 4, y: 5 )
+                            )
+                        Hexagon()
+                            .fill(Color.gray.opacity(0.5))
+                            .frame(width: 100, height: 120, alignment: .center)
+                            .overlay(
+                            Image(symbols[numbers[1]])
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 80, height: 70, alignment: .center)
+                                .shadow(color: .gray, radius: 4, x: 4, y: 5 )
+                            )
+                    }
+                    
+                    Hexagon()
+                        .fill(Color.gray.opacity(0.5))
+                        .frame(width: 100, height: 120, alignment: .center)
+                        .overlay(
+                        Image(symbols[numbers[2]])
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 80, height: 70, alignment: .center)
+                            .shadow(color: .gray, radius: 4, x: 4, y: 5 )
+                        )
+                    HStack(spacing: 35) {
+                        Hexagon()
+                            .fill(Color.gray.opacity(0.5))
+                            .frame(width: 100, height: 120, alignment: .center)
+                            .overlay(
+                            Image(symbols[numbers[3]])
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 80, height: 70, alignment: .center)
+                                .shadow(color: .gray, radius: 4, x: 4, y: 5 )
+                            )
+                        Hexagon()
+                            .fill(Color.gray.opacity(0.5))
+                            .frame(width: 100, height: 120, alignment: .center)
+                            .overlay(
+                            Image(symbols[numbers[4]])
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 80, height: 70, alignment: .center)
+                                .shadow(color: .gray, radius: 4, x: 4, y: 5 )
+                            )
+                    }
+                }
+                Button {
+                    print("Hello")
+                } label: {
+                    RoundedRectangle(cornerRadius: 10)
+                        .fill(Color("color"))
+                        .overlay(Text("Spin")
+                            .font(.title2)
+                            .fontWeight(.black)
+                        )
+                        .foregroundColor(.black)
+                        .frame(width: 200, height: 40, alignment: .center)
+                        .shadow(color: .gray, radius: 1, y: 4)
+                }
+            }
+        }
     }
 }
-
-#Preview {
-    ContentView()
-}
+    #Preview {
+        ContentView()
+    }
