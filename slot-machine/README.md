@@ -1,7 +1,7 @@
 ## SLOT MACHINE
 This is basically a gambling machine/game User Interface.
 
-## CODE SNIPPET
+## [CODE SNIPPET](slot-machine/slot-machine/ContentView.swift)
 <p>
   <img width="1440" alt="codeSnippet02" src="https://github.com/lxmn22nov/SwiftUI/assets/126524753/14e0c9ba-554b-4066-ae13-a2aae1aa6d35">
 </p>
