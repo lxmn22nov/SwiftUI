@@ -30,20 +30,20 @@ struct Hexagon: Shape {
     }
 }
 
-//enum Choice: Int, Identifiable {
-//    
-//    var Id: Int {
-//        rawValue
-//    }
-//    case success, failure
-//}
+enum Choice: Int, Identifiable {
+    
+    var Id: Int {
+        rawValue
+    }
+    case success, failure
+}
 
 struct ContentView: View {
     
     @State public var symbols = ["eating","happy","love","scary","sleeping"]
-    @State public var numbers = [0, 1, 2, 3, 4, 5]
+    @State public var numbers = [0, 1, 2, 3, 4]
     @State public var counter = 0
-//        @State public var showingAlert = Choice?
+    @State private var showingAlert = Choice?
     
     var body: some View {
         ZStack {
@@ -124,7 +124,21 @@ struct ContentView: View {
                     }
                 }
                 Button {
-                    print("Hello")
+                   
+                    self.numbers[0] = Int.random(in: 0...self.symbols.count - 1)
+                    self.numbers[1] = Int.random(in: 0...self.symbols.count - 1)
+                    self.numbers[2] = Int.random(in: 0...self.symbols.count - 1)
+                    self.numbers[3] = Int.random(in: 0...self.symbols.count - 1)
+                    self.numbers[4] = Int.random(in: 0...self.symbols.count - 1)
+                    
+                    counter += 1
+                    
+                    if counter > 10 {
+                        self.showingAlert = .failure
+                        counter = 0
+                    }
+                    
+                    
                 } label: {
                     RoundedRectangle(cornerRadius: 10)
                         .fill(Color("color"))
@@ -135,6 +149,14 @@ struct ContentView: View {
                         .foregroundColor(.black)
                         .frame(width: 200, height: 40, alignment: .center)
                         .shadow(color: .gray, radius: 1, y: 4)
+                }
+            }
+            .alert(item: $showingAlert) { alert -> Alert in
+                switch alert {
+                case.success:
+                    return Alert(title: Text("You won!!!"), message: Text("Born with the charm"), dismissButton: .cancel())
+                case.failure:
+                    return Alert(title: Text("You Lost!!!"), message: Text("Try your Luck again."), dismissButton: .cancel())
                 }
             }
         }
