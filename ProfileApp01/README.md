@@ -4,7 +4,7 @@ This is the basic User Interface of Profile App created using Stacks.
 -VStack
 -ZStack
 
-## Code Snippet
+## [Code Snippet](ProfileApp01/ProfileApp01/ContentView.swift)
 <img width="1440" alt="Snapshot" src="https://github.com/lxmn22nov/SwiftUI/assets/126524753/6f6cc015-766c-4d5b-b478-144d29a4422b">
 
 
