@@ -13,7 +13,7 @@ struct KeyView: View {
     // use this variable to do calculation.
     @State var runningNumber = 0
     // use this variable to hold the operation.
-    // @State var currentOperation: Operation = .none
+    @State var currentOperation: Operation = .none
     @State private var changeColor = false
     
     let buttons: [[Keys]] = [
@@ -32,7 +32,7 @@ struct KeyView: View {
                     .foregroundColor(changeColor ? Color("num").opacity(0.4):Color.gray.opacity(0.6))
                     .scaleEffect(changeColor ? 1.5 : 1.0)
                     .frame(width: 350, height: 280)
-                    .animation(Animation.easeInOut.speed(0.17).repeatForever(), value: changeColor)
+                    .animation(Animation.easeInOut.speed(0.15).repeatForever(), value: changeColor)
                     .onAppear(perform: {
                         
                         self.changeColor.toggle()
@@ -74,7 +74,54 @@ struct KeyView: View {
     }
     
     func didTap(button: Keys) {
-        print("Laxman")
+        switch button {
+        case .add, .subtraction, .multiplication, .division, .equal:
+            if button == .add {
+                self.currentOperation = .add
+                self.runningNumber = Int(self.value) ?? 0
+            }
+            else if button == .subtraction {
+                self.currentOperation = .subtraction
+                self.runningNumber = Int(self.value) ?? 0
+            }
+            else if button == .multiplication {
+                self.currentOperation = .multiplication
+                self.runningNumber = Int(self.value) ?? 0
+            }
+            else if button == .division {
+                self.currentOperation = .division
+                self.runningNumber = Int(self.value) ?? 0
+            }
+            else if button == .equal {
+                let runningValue = self.runningNumber
+                let currentValue = Int(self.value) ?? 0
+                
+                switch self.currentOperation {
+                case .add: self.value = "\(runningValue + currentValue)"
+                case .subtraction: self.value = "\(runningValue - currentValue)"
+                case .multiplication: self.value = "\(runningValue * currentValue)"
+                case .division: self.value = "\(runningValue / currentValue)"
+                case .none:
+                    break
+                }
+            }
+            if button != .equal {
+                self.value = "0"
+            }
+        case .clear:
+            self.value = "0"
+        case .decimal, .negative, .percentage:
+            //complete
+            break
+        default:
+            let number = button.rawValue
+            if self.value == "0" {
+                value = number
+            }
+            else {
+                self.value = "\(self.value)\(number)"
+            }
+        }
     }
 }
 #Preview {

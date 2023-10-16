@@ -22,7 +22,7 @@ enum Keys: String {
     case add = "+"
     case subtraction = "-"
     case multiplication = "*"
-    case division = "/"
+    case division = "÷"
     case equal = "="
     case clear = "AC"
     case decimal = "."
@@ -39,4 +39,8 @@ enum Keys: String {
             return Color("Num")
         }
     }
+}
+
+enum Operation {
+    case add, subtraction, multiplication, division, none
 }
