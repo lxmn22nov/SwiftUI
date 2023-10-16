@@ -42,8 +42,27 @@ struct KeyView: View {
                     .font(.system(size: 96))
                 .foregroundColor(.black)
             }.padding()
-            Text("Hello, Laxman.")
+            ForEach(buttons, id: \.self) { row in
+                HStack(spacing: 10) {
+                    ForEach(row, id: \.self) { elem in
+                        Button {
+                            self.didTap(button: elem)
+                        } label: {
+                            Text(elem.rawValue)
+                                .font(.system(size: 30))
+                                .frame(width: 60, height: 60)
+                                .background(elem.buttonColor)
+                                .foregroundColor(.white)
+                                .cornerRadius(50)
+                            
+                        }
+                    }
+                }
+            }
         }
+    }
+    func didTap(button: Keys) {
+        print("Laxman")
     }
 }
 #Preview {
