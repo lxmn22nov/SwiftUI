@@ -29,7 +29,7 @@ struct KeyView: View {
             Spacer()
             HStack {
                 RoundedRectangle(cornerRadius: 15)
-                    .foregroundColor(changeColor ? Color("num").opacity(0.4):Color.green.opacity(0.6))
+                    .foregroundColor(changeColor ? Color("num").opacity(0.4):Color.gray.opacity(0.6))
                     .scaleEffect(changeColor ? 1.5 : 1.0)
                     .frame(width: 350, height: 280)
                     .animation(Animation.easeInOut.speed(0.17).repeatForever(), value: changeColor)
@@ -50,17 +50,29 @@ struct KeyView: View {
                         } label: {
                             Text(elem.rawValue)
                                 .font(.system(size: 30))
-                                .frame(width: 60, height: 60)
+                                .frame(width: self.getWidth(elem: elem), 
+                                       height: self.getHeight(elem: elem))
                                 .background(elem.buttonColor)
                                 .foregroundColor(.white)
-                                .cornerRadius(50)
-                            
+                                .cornerRadius(self.getWidth(elem: elem) / 2)
                         }
                     }
-                }
+                }.padding(.bottom, 4)
             }
         }
     }
+    // getting the width of the calculator elements.
+    func getWidth(elem: Keys) -> CGFloat {
+        if elem == .zero {
+            return (UIScreen.main.bounds.width - (5*10)) / 2
+        }
+        return (UIScreen.main.bounds.width - (5*10)) / 4
+    }
+    // getting the height of the calculator elements.
+    func getHeight(elem: Keys) -> CGFloat {
+        return (UIScreen.main.bounds.width - (5*10)) / 5
+    }
+    
     func didTap(button: Keys) {
         print("Laxman")
     }
