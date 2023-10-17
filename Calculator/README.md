@@ -7,6 +7,16 @@
 ![Screenshot 2023-10-17 at 2 40 12 AM](https://github.com/lxmn22nov/SwiftUI/assets/126524753/ebab5cf5-34ad-42c3-8fb8-0582022f3966)
 
 ## METHODOLOGY
+- ## FILE STRUCTURE
+- CALCULATOR
+    - VIEWS
+        - COUNTER VIEW
+        - KEY VIEW
+    - MODEL
+          - CALCULATOR MODEL
+    - CALCULATOR APP
+
+      
 - ### ASSETS
     - Hoperator: opted the color for top horizontal elements.
     - Voperator: opted the color for vertical elements(right).
