@@ -63,7 +63,7 @@
 P.S- Trying to add the video but there are some issues until then...
 ---
 <p align="center">
-  <img width="390" alt="Output" src="https://github.com/lxmn22nov/SwiftUI/assets/126524753/5bde6cff-dc64-4a4e-86ed-584be4c5c11b">
-</p
+  <img width="390" alt="Output" src="https://github.com/lxmn22nov/SwiftUI/assets/126524753/fef2159f-59bd-49ce-989d-b6eacd536d55">
+</p>
 
 **### NOTE:** For now this app do the basic operations, but in near future I'll going to upgrade this app into the scientific calculator.
