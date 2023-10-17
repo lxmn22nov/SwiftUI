@@ -13,7 +13,7 @@
         - COUNTER VIEW
         - KEY VIEW
     - MODEL
-          - CALCULATOR MODEL
+      - CALCULATOR MODEL
     - CALCULATOR APP
 
       
