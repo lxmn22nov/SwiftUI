@@ -1,4 +1,4 @@
-## SPLASH SCREEN
+## [SPLASH SCREEN](SplashScreen/SplashScreen/Views/SplashScreenView.swift)
 - A splash screen is the first graphical notification you receive when you visit any app. 
   - It can even appear as an introductory screen of an application. 
 - It also signifies that you have to wait for a few seconds before landing on the actual screen of the application.
@@ -30,4 +30,4 @@ https://github.com/lxmn22nov/SwiftUI/assets/126524753/031c6dd2-8305-4b78-8aee-bb
 
 - ### SPLASH SCREEN VIEW
   - Declared the three **@State** variables.
-  - And, inside the body wrote the logic of the [splash screen]().
+  - And, inside the body wrote the logic of the [splash screen](SplashScreen/SplashScreen/Views/SplashScreenView.swift).
