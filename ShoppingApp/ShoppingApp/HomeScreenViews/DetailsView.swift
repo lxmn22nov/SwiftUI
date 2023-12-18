@@ -57,6 +57,7 @@ struct DetailsView: View {
                 .edgesIgnoringSafeArea(.top)
                 .clipShape(RoundedCornerShape.init(corners: [.bottomLeft, .bottomRight], radius: 50))
                 .frame(width: .infinity, height: .infinity, alignment: .top)
+                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 .shadow(color: .gray, radius: 5, x: 5, y: 5)
                 .overlay(
                     Image("\(fruit.rawValue)")
@@ -117,5 +118,5 @@ struct DetailsView: View {
 }
 
 #Preview {
-    DetailsView(fruit: .apple)
+    DetailsView(fruit: .Apple)
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let images: FruitModel = FruitModel(id: 1, title: .apple, image: "apple", price: "180", color: "1")
+let images: FruitModel = FruitModel(id: 1, title: .Apple, image: "apple", price: "180", color: "1")
 
 struct FruitCardView: View {
     let fruits: FruitModel
