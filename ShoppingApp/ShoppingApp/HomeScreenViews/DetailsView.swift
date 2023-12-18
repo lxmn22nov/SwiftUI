@@ -93,7 +93,7 @@ struct DetailsView: View {
             }.padding(.horizontal)
             
             HStack {
-                Text("20")
+                Text("₹20")
                     .fontWeight(.medium)
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     .padding(.horizontal)

@@ -18,6 +18,7 @@
 		5F40D5082B30B00A009AF685 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40D5072B30B00A009AF685 /* FruitCardView.swift */; };
 		5F40D50A2B30B50F009AF685 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40D5092B30B50F009AF685 /* DetailsView.swift */; };
 		5F40D50C2B30B569009AF685 /* TopSellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40D50B2B30B569009AF685 /* TopSellingView.swift */; };
+		5F40D50E2B30DA64009AF685 /* NearYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40D50D2B30DA64009AF685 /* NearYouView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5F40D5072B30B00A009AF685 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		5F40D5092B30B50F009AF685 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		5F40D50B2B30B569009AF685 /* TopSellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellingView.swift; sourceTree = "<group>"; };
+		5F40D50D2B30DA64009AF685 /* NearYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				5F40D5072B30B00A009AF685 /* FruitCardView.swift */,
 				5F40D5092B30B50F009AF685 /* DetailsView.swift */,
 				5F40D50B2B30B569009AF685 /* TopSellingView.swift */,
+				5F40D50D2B30DA64009AF685 /* NearYouView.swift */,
 			);
 			path = HomeScreenViews;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				5F1A448F2B306701003A92F8 /* OnBoardingScreenView.swift in Sources */,
 				5F1A44832B305BCF003A92F8 /* ContentView.swift in Sources */,
 				5F40D5082B30B00A009AF685 /* FruitCardView.swift in Sources */,
+				5F40D50E2B30DA64009AF685 /* NearYouView.swift in Sources */,
 				5F40D50A2B30B50F009AF685 /* DetailsView.swift in Sources */,
 				5F1A44952B307AE5003A92F8 /* ImageData.swift in Sources */,
 				5F1A44812B305BCF003A92F8 /* ShoppingAppApp.swift in Sources */,
