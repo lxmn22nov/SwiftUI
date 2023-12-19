@@ -12,6 +12,8 @@
 		5FF443EF2B3213AF001D2B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF443EE2B3213AF001D2B8F /* Assets.xcassets */; };
 		5FF443F22B3213AF001D2B8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF443F12B3213AF001D2B8F /* Preview Assets.xcassets */; };
 		5FF443FA2B3214D8001D2B8F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF443F92B3214D8001D2B8F /* SearchBarView.swift */; };
+		5FF443FD2B321A5D001D2B8F /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF443FC2B321A5D001D2B8F /* PostModel.swift */; };
+		5FF443FF2B321A6E001D2B8F /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF443FE2B321A6E001D2B8F /* NetworkModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		5FF443EE2B3213AF001D2B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FF443F12B3213AF001D2B8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FF443F92B3214D8001D2B8F /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		5FF443FC2B321A5D001D2B8F /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		5FF443FE2B321A6E001D2B8F /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		5FF443E92B3213AE001D2B8F /* LinkedInUI */ = {
 			isa = PBXGroup;
 			children = (
+				5FF443FB2B321A41001D2B8F /* Models */,
 				5FF443F82B3214A3001D2B8F /* Views */,
 				5FF443EA2B3213AE001D2B8F /* LinkedInUIApp.swift */,
 				5FF443EC2B3213AE001D2B8F /* ContentView.swift */,
@@ -76,6 +81,15 @@
 				5FF443F92B3214D8001D2B8F /* SearchBarView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5FF443FB2B321A41001D2B8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FF443FC2B321A5D001D2B8F /* PostModel.swift */,
+				5FF443FE2B321A6E001D2B8F /* NetworkModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FF443ED2B3213AE001D2B8F /* ContentView.swift in Sources */,
+				5FF443FD2B321A5D001D2B8F /* PostModel.swift in Sources */,
 				5FF443FA2B3214D8001D2B8F /* SearchBarView.swift in Sources */,
+				5FF443FF2B321A6E001D2B8F /* NetworkModel.swift in Sources */,
 				5FF443EB2B3213AE001D2B8F /* LinkedInUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
