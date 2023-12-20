@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F2C11912B331F86003DF4BE /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C11902B331F86003DF4BE /* PostCardView.swift */; };
 		5FF443EB2B3213AE001D2B8F /* LinkedInUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF443EA2B3213AE001D2B8F /* LinkedInUIApp.swift */; };
 		5FF443ED2B3213AE001D2B8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF443EC2B3213AE001D2B8F /* ContentView.swift */; };
 		5FF443EF2B3213AF001D2B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF443EE2B3213AF001D2B8F /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F2C11902B331F86003DF4BE /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
 		5FF443E72B3213AE001D2B8F /* LinkedInUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF443EA2B3213AE001D2B8F /* LinkedInUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInUIApp.swift; sourceTree = "<group>"; };
 		5FF443EC2B3213AE001D2B8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				5FF443F92B3214D8001D2B8F /* SearchBarView.swift */,
 				5FF444002B321C1C001D2B8F /* InvitationView.swift */,
 				5FF444022B3226D7001D2B8F /* MyNetworkScreen.swift */,
+				5F2C11902B331F86003DF4BE /* PostCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2C11912B331F86003DF4BE /* PostCardView.swift in Sources */,
 				5FF443ED2B3213AE001D2B8F /* ContentView.swift in Sources */,
 				5FF443FD2B321A5D001D2B8F /* PostModel.swift in Sources */,
 				5FF443FA2B3214D8001D2B8F /* SearchBarView.swift in Sources */,
