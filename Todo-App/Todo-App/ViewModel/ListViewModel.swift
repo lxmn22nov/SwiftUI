@@ -21,6 +21,29 @@ class ListViewModel: ObservableObject {
         getItems()
     }
     
+    // CRUD: adding item.
+    func addItem(title: String) {
+        let newItem = ItemModel(Title: title, IsCompleted: false)
+        items.append(newItem)
+    }
+    
+    // upadating items.
+    func update(item: ItemModel) {
+        if let index = items.firstIndex(where: { $0.id == item.id }) {
+            items[index] = item.updateCompleted()
+        }
+    }
+    
+    // deleting item.
+    func deleteItem(indexSet: IndexSet) {
+        items.remove(atOffsets: indexSet)
+    }
+    
+    // moving items.
+    func moveItems(from: IndexSet, to: Int) {
+        items.move(fromOffsets: from, toOffset: to)
+    }
+    
     // Retreving or getting the empty/full array.
     func getItems() {
         // storing user JSON data.
