@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F070C572B8263B70027488C /* NoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F070C562B8263B70027488C /* NoListView.swift */; };
+		5F070C592B826D560027488C /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F070C582B826D560027488C /* AddView.swift */; };
 		5F88206A2B7CA8A400BBC149 /* Todo_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8820692B7CA8A400BBC149 /* Todo_AppApp.swift */; };
 		5F88206C2B7CA8A400BBC149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88206B2B7CA8A400BBC149 /* ContentView.swift */; };
 		5F88206E2B7CA8A600BBC149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F88206D2B7CA8A600BBC149 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F070C562B8263B70027488C /* NoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoListView.swift; sourceTree = "<group>"; };
+		5F070C582B826D560027488C /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		5F8820662B7CA8A400BBC149 /* Todo-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8820692B7CA8A400BBC149 /* Todo_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_AppApp.swift; sourceTree = "<group>"; };
 		5F88206B2B7CA8A400BBC149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,7 +80,9 @@
 		5F8820772B7CADAC00BBC149 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5F070C582B826D560027488C /* AddView.swift */,
 				5F88206B2B7CA8A400BBC149 /* ContentView.swift */,
+				5F070C562B8263B70027488C /* NoListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +183,8 @@
 			files = (
 				5F88207B2B7CB02400BBC149 /* ItemModel.swift in Sources */,
 				5F88206C2B7CA8A400BBC149 /* ContentView.swift in Sources */,
+				5F070C592B826D560027488C /* AddView.swift in Sources */,
+				5F070C572B8263B70027488C /* NoListView.swift in Sources */,
 				5F88207E2B7CE2D500BBC149 /* ListViewModel.swift in Sources */,
 				5F88206A2B7CA8A400BBC149 /* Todo_AppApp.swift in Sources */,
 			);
