@@ -16,7 +16,7 @@ struct NoListView: View {
                 Text("There are no items!")
                     .font(.title)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                Text("Be more productive add some to-do's to finish them on time!!!")
+                Text("Be more productive!!!")
                     .padding(.bottom, 20)
                 NavigationLink(destination: AddView(), label: {
                     Text("Add something. 🙂")
