@@ -15,6 +15,6 @@ struct Pokemon: Decodable, Identifiable {
     let height: Int
     let weight: Int
     let attack: Int
-    let defence: Int
+    let defense: Int
     let description: String
 }
