@@ -22,6 +22,7 @@
 		5F8CA9432BCC5F89009945C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CA9422BCC5F89009945C4 /* User.swift */; };
 		5F8CA9462BCC650E009945C4 /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5F8CA9452BCC650E009945C4 /* SwiftfulUI */; };
 		5F8CA9492BCC6544009945C4 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = 5F8CA9482BCC6544009945C4 /* SwiftfulRouting */; };
+		5FA168E62BD811CF00F2076B /* SpotifyRecentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA168E52BD811CF00F2076B /* SpotifyRecentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		5F8CA93E2BCC49A7009945C4 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 		5F8CA9402BCC5F70009945C4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		5F8CA9422BCC5F89009945C4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5FA168E52BD811CF00F2076B /* SpotifyRecentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyRecentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				5F8CA92C2BCC3CB6009945C4 /* SpotifyCategoryCell.swift */,
+				5FA168E52BD811CF00F2076B /* SpotifyRecentCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				5F8CA93F2BCC49A7009945C4 /* DatabaseHelper.swift in Sources */,
 				5F8CA93D2BCC45FE009945C4 /* Constants.swift in Sources */,
 				5F8CA91C2BCC243F009945C4 /* ContentView.swift in Sources */,
+				5FA168E62BD811CF00F2076B /* SpotifyRecentCell.swift in Sources */,
 				5F8CA9432BCC5F89009945C4 /* User.swift in Sources */,
 				5F8CA91A2BCC243F009945C4 /* SpotifyUIApp.swift in Sources */,
 			);
