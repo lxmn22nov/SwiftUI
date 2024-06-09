@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F53A98E2C15A8060003CE29 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F53A98D2C15A8060003CE29 /* DestinationSearchView.swift */; };
 		5FC860952C14575C0007EAA6 /* AirBNB_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC860942C14575C0007EAA6 /* AirBNB_CloneApp.swift */; };
 		5FC860972C14575C0007EAA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC860962C14575C0007EAA6 /* ContentView.swift */; };
 		5FC860992C14575E0007EAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC860982C14575E0007EAA6 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F53A98D2C15A8060003CE29 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		5FC860912C14575C0007EAA6 /* AirBNB Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirBNB Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC860942C14575C0007EAA6 /* AirBNB_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBNB_CloneApp.swift; sourceTree = "<group>"; };
 		5FC860962C14575C0007EAA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			children = (
 				5FC860AE2C1459FA0007EAA6 /* ExploreView.swift */,
 				5FC860B22C146C6B0007EAA6 /* SearchAndFilterBar.swift */,
+				5F53A98D2C15A8060003CE29 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				5FC860B12C145CF30007EAA6 /* ListingItemView.swift in Sources */,
 				5FC860BA2C148ECC0007EAA6 /* RatingView.swift in Sources */,
 				5FC860AF2C1459FA0007EAA6 /* ExploreView.swift in Sources */,
+				5F53A98E2C15A8060003CE29 /* DestinationSearchView.swift in Sources */,
 				5FC860B32C146C6B0007EAA6 /* SearchAndFilterBar.swift in Sources */,
 				5FC860B52C148B520007EAA6 /* ListingDetailView.swift in Sources */,
 				5FC860952C14575C0007EAA6 /* AirBNB_CloneApp.swift in Sources */,
