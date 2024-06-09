@@ -10,12 +10,12 @@ import SwiftUI
 
 struct ListingDetailView: View {
     
-    var images = [
-    "listing-01",
-    "listing-02",
-    "listing-03",
-    "listing-04"
-    ]
+//    var images = [
+//    "listing-01",
+//    "listing-02",
+//    "listing-03",
+//    "listing-04"
+//    ]
     
     @Environment(\.dismiss) var dismiss
     var body: some View {
@@ -165,6 +165,7 @@ struct ListingDetailView: View {
             }
             .padding()
         }
+        .toolbar(.hidden, for: .tabBar)
         .ignoresSafeArea()
         .padding(.bottom, 60)
         .overlay(alignment: .bottom) {
