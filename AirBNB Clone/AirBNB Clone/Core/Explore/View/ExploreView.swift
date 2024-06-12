@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ExploreView: View {
     @State private var showDestinationSearchView = false
+    @StateObject var viewModel = ExploreViewModel(service: ExploreService())
     
     var body: some View {
         // NavigationStack used to jumps to next screen.
@@ -26,11 +27,12 @@ struct ExploreView: View {
                         }
                     // LazyStack helps items to grow according to the need.
                     LazyVStack(spacing: 33) {
-                        ForEach(0...4, id: \.self) { listing in
+//                        ForEach(0...4, id: \.self) { listing in
+                        ForEach(viewModel.listings) { listing in
     //                        Rectangle()
                             // NavigationLink will help user to navigate through ExploreView to Detail of ListingItemView.
                             NavigationLink(value: listing) {
-                                ListingItemView()
+                                ListingItemView(listing: listing)
                                     .frame(height: 400)
                                     .clipShape(RoundedRectangle(cornerRadius: 9))
                             }
@@ -38,8 +40,8 @@ struct ExploreView: View {
                     }
                     .padding()
                 }
-                .navigationDestination(for: Int.self) { listing in
-                    ListingDetailView()
+                .navigationDestination(for: Listing.self) { listing in
+                    ListingDetailView(listing: listing)
                         .navigationBarBackButtonHidden()
                 }
             }

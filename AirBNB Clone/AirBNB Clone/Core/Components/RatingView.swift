@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RatingView: View {
+    
     var body: some View {
         HStack(spacing: 3) {
             Image(systemName: "star.fill")
