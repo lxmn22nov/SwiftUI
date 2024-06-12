@@ -12,6 +12,7 @@
 		5F53A98E2C15A8060003CE29 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F53A98D2C15A8060003CE29 /* DestinationSearchView.swift */; };
 		5F66D3902C1986CA00F85E96 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66D38F2C1986CA00F85E96 /* ExploreViewModel.swift */; };
 		5F66D3922C19874E00F85E96 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66D3912C19874E00F85E96 /* ExploreService.swift */; };
+		5F804D882C1A07DF0066B106 /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F804D872C1A07DF0066B106 /* Regions.swift */; };
 		5FC860952C14575C0007EAA6 /* AirBNB_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC860942C14575C0007EAA6 /* AirBNB_CloneApp.swift */; };
 		5FC860972C14575C0007EAA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC860962C14575C0007EAA6 /* ContentView.swift */; };
 		5FC860992C14575E0007EAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC860982C14575E0007EAA6 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		5F53A98D2C15A8060003CE29 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		5F66D38F2C1986CA00F85E96 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		5F66D3912C19874E00F85E96 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		5F804D872C1A07DF0066B106 /* Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
 		5FC860912C14575C0007EAA6 /* AirBNB Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirBNB Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC860942C14575C0007EAA6 /* AirBNB_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBNB_CloneApp.swift; sourceTree = "<group>"; };
 		5FC860962C14575C0007EAA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				5F35B7412C17893000205A0E /* DeveloperPreview.swift */,
+				5F804D872C1A07DF0066B106 /* Regions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				5FC860B32C146C6B0007EAA6 /* SearchAndFilterBar.swift in Sources */,
 				5FCB1DF12C162ED30067A377 /* LogInButtonView.swift in Sources */,
 				5FCB1DF32C16315F0067A377 /* MainTabView.swift in Sources */,
+				5F804D882C1A07DF0066B106 /* Regions.swift in Sources */,
 				5FC860B52C148B520007EAA6 /* ListingDetailView.swift in Sources */,
 				5FC860952C14575C0007EAA6 /* AirBNB_CloneApp.swift in Sources */,
 			);
