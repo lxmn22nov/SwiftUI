@@ -21,40 +21,40 @@ An Airbnb clone operates an online marketplace for short & long-term homestays &
   <tr>
     <td>Core Folder</td>
     <td> 
-      <b> Components </b>
+      <ins><b> Components </b></ins>
       <dl><ul> ListingImageCarouselView.swift </ul></dl>
       <dl><ul> RatingView.swift </ul></dl>
       <dl><ul> LoginButtonView.swift </ul></dl>
       <dl><ul> AirbnbSplashScreenView.swift </ul></dl>
-      <b> Explore </b>
+      <ins><b> Explore </b></ins>
       <dl>
-        <ul><b> Service: </b></ul>
+        <ins><ul><b> Service: </b></ul></ins>
         <dl><ul> ExploreService.swift </ul></dl>
-        <ul><b> View: </b></ul>
+        <ins><ul><b> View: </b></ul></ins>
         <dl><ul> ExploreView.swift </ul></dl>
         <dl><ul> SearchAndFilterBar.swift </ul></dl>
         <dl><ul> DestinationSearchView.swift </ul></dl>
-        <ul><b> ViewModel: </b></ul>
+        <ins><ul><b> ViewModel: </b></ul></ins>
         <dl><ul> ExploreViewModel.swift </ul></dl>
       </dl>
-      <b> Listings </b>
+      <ins><b> Listings </b></ins>
       <dl>
-        <ul><b> Model: </b></ul>
+        <ins><ul><b> Model: </b></ul></ins>
         <dl><ul> Listing.swift </ul></dl>
-        <ul><b> View: </b></ul>
+        <ins><ul><b> View: </b></ul></ins>
         <dl><ul> ListingItemView.swift </ul></dl>
         <dl><ul> ListingDetailView.swift </ul></dl>
       </dl>
-      <b> Profile </b>
+      <ins><b> Profile </b></ins>
       <dl>
         <dl><ul> ProfileView.swift </ul></dl>
         <dl><ul> ProfileOptionRowView.swift </ul></dl>
       </dl>
-      <b> TabBar </b>
+      <ins><b> TabBar </b></ins>
       <dl>
         <dl><ul> MainTabView.swift </ul></dl>
       </dl>
-      <b> Wishlist </b>
+      <ins><b> Wishlist </b></ins>
       <dl>
         <dl><ul> WishlistView.swift </ul></dl>
       </dl>
