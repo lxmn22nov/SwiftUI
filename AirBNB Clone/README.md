@@ -125,4 +125,4 @@ Snippets of the app.
 
 ### Glimpse of App
 
-<!-- https://github.com/lxmn22nov/SwiftUI/assets/126524753/e0519657-6a60-439f-ae0b-55fb9efd4725 -->
+https://github.com/lxmn22nov/SwiftUI/assets/126524753/d0e5eaf5-3455-40fa-b16c-af8fa10cf0aa
