@@ -4,32 +4,44 @@ Side-Menu is a feature that is provided to the user for every app they use. It c
 ### Overview:
 <table>
   <tr>
-    <td>File Structure</td>
-    <td>Files</td>
-    <td>Key Topics/Keywords</td>
+    <td><b>File Structure</b></td>
+    <td><b>Files</b></td>
+    <td><b>Key Topics/Keywords</b></td>
   </tr>
   <tr>
-    <td>App Folder</td>
+    <td><b>App Folder</b></td>
     <td>SideMenuApp.swift</td>
     <td>From here, we can run the ContentView() file.</td>
   </tr>
   <tr>
-    <td>Assets Folder</td>
+    <td><b>Assets Folder</b></td>
     <td>Assets.xcassets</td>
     <td>Here, we have AppIcons, Images.</td>
   </tr>
   <tr>
-    <td>View Folder</td>
-    <td>SideMenuView.swift</td>
-    <td>In this file, we built the side view panel where it contains all the features.</td>
+    <td><b>View Folder</b></td>
+    <td> 
+      <dl>SideMenuView.swift</dl>
+      <dl>SideMenuHeaderView.swift</dl>
+      <dl>SideMenuRowView.swift</dl>
+    </td>
+    <td>
+      <dl>In this file, we built the side view panel where it contains all the features.</dl>
+      <dl>In this file, we made the user icon and the displayed the user name & email-id.</dl>
+      <dl>In this file, we made the component for all the features enlisted over the side view panel.</dl>
+    </td>
   </tr>
+  <tr> 
+    <td><b>Model</b></td>
+    <td>SideMenuOptionModel.swift</td>
+    <td>This swift file consists the component details.</td>
   <tr>
-    <td>Preview Content Folder</td>
+    <td><b>Preview Content Folder</b></td>
     <td>
       <dl>Preview Assets.xcassets</dl>
     </td>
     <td>
-      <dl><ins><b>Preview Assets.xcassets:</b></ins> Previews the used assets in the app.</dl>
+      <dl><b>Preview Assets.xcassets:</b> Previews the used assets in the app.</dl>
     </td>
   </tr>
 </table>
@@ -40,22 +52,16 @@ Snippets of the app.
 
 <table>
   <tr>
-    <td>App Icon View.</td>
-    <td>Explore View.</td>
-    <td>Listing View.</td>
-    <td>Wishlist View.</td>
-    <td>Profile View.</td>
+    <td>Home View.</td>
+    <td>Side-Menu View.</td>
   </tr>
   <tr>
 <!--     <td><img src="screenshots/Screenshot_1582745092.png" width=270 height=480></td> -->
-    <td><img width="273" alt="AppIcon" src="https://github.com/lxmn22nov/SwiftUI/assets/126524753/aaf87ade-ec8c-4d50-a4db-5d1e95f65917"></td>
-    <td><img width="278" alt="Explore View" src="https://github.com/lxmn22nov/SwiftUI/assets/126524753/e6f36d94-0735-4e3a-9c96-77847ac3f310"></td>
-    <td><img width="278" alt="Listing View" src="https://github.com/lxmn22nov/SwiftUI/assets/126524753/3584c537-47c5-4ccd-b98b-222469febc85"></td>
-    <td><img width="278" alt="Wishlist View" src="https://github.com/lxmn22nov/SwiftUI/assets/126524753/f5347bd2-b058-42bc-aadb-915487c26209"></td>
-    <td><img width="278" alt="Profile View" src="https://github.com/lxmn22nov/SwiftUI/assets/126524753/0005f5b5-99b4-46e7-a718-fd02f7f5e514"></td>
+    <td><img width="273" alt="AppIcon" src="https://github.com/lxmn22nov/SwiftUI/assets/126524753/5c946969-05b6-4385-91cc-0c266d4e6b16"></td>
+    <td><img width="278" alt="Explore View" src="https://github.com/lxmn22nov/SwiftUI/assets/126524753/b88cb483-0f77-44cb-ba7e-2b483960479d"></td>
   </tr>
  </table>
 
 ### Glimpse of App
 
-https://github.com/lxmn22nov/SwiftUI/assets/126524753/d0e5eaf5-3455-40fa-b16c-af8fa10cf0aa
+https://github.com/lxmn22nov/SwiftUI/assets/126524753/f7fd8c08-d9a4-43ad-9d77-617c87f6ae01
