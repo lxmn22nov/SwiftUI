@@ -17,6 +17,7 @@ struct Landmark: Codable, Hashable, Identifiable {
     var park: String
     var state: String
     var description: String
+    var isFavorite: Bool
     
     // Adding "imageName" property to read the name of the image from the data & computed image property that loads an image from the asset catalog.
     private var imageName: String

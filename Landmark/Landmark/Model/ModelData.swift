@@ -8,7 +8,10 @@
 // Creating a load() method that fetches JSON data with a given name from the app's main bundle.
 import Foundation
 
-var landmarks: [Landmark] = load("landmarkData.json")
+@Observable
+class ModelData {
+    var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 // load() relies on the return type's conformance to the Decodable protocol, which is one component of the Codable protocol.
 func load<T: Decodable>(_ filename: String) -> T {
