@@ -11,6 +11,7 @@ import Foundation
 @Observable
 class ModelData {
     var landmarks: [Landmark] = load("landmarkData.json")
+    var hikes: [Hike] = load("hikeData.json")
 }
 
 // load() relies on the return type's conformance to the Decodable protocol, which is one component of the Codable protocol.
