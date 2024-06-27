@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CoreGraphics
 
 struct GraphCapsuleView: View, Equatable {
     var index: Int

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LandmarkRowView: View {
     // stored property.
-    var landmark: Landmark
+    var landmark: Landmarks
     
     var body: some View {
         HStack {

@@ -1,7 +1,7 @@
 [
     {
         "name": "Gateway to Heaven!",
-        "category": "Plains",
+        "category": "Mountains",
         "city": "Haldwani",
         "state": "Uttrakhand",
         "id": 1001,
@@ -33,7 +33,7 @@
     },
     {
         "name": "Dehradun",
-        "category": "City",
+        "category": "Mountains",
         "city": "Dehradun",
         "state": "Uttrakhand",
         "id": 1003,
@@ -49,7 +49,7 @@
     },
     {
         "name": "Pindari Glaciers",
-        "category": "Himalayas",
+        "category": "Mountains",
         "city": "Loharkhet",
         "state": "Uttarakhand",
         "id": 1004,
@@ -65,7 +65,7 @@
     },
     {
         "name": "Mini Switzerland of India",
-        "category": "Lakes and Himalayas",
+        "category": "Lakes",
         "city": "Joshimath",
         "state": "Uttrakhand",
         "id": 1005,
@@ -97,7 +97,7 @@
     },
     {
         "name": "Nanda Devi",
-        "category": "Himalayas",
+        "category": "Rivers",
         "city": "Chamoli",
         "state": "Uttrakhand",
         "id": 1007,
@@ -113,7 +113,7 @@
     },
     {
         "name": "Om Parvat",
-        "category": "Himalayas",
+        "category": "Mountains",
         "city": "Pithoragarh",
         "state": "Uttrakhand",
         "id": 1008,
@@ -129,7 +129,7 @@
     },
     {
         "name": "Haridwar",
-        "category": "River",
+        "category": "Rivers",
         "city": "Haridwar",
         "state": "Uttrakhand",
         "id": 1009,
@@ -145,7 +145,7 @@
     },
     {
         "name": "Valley of Flowers",
-        "category": "Garden",
+        "category": "Lakes",
         "city": "Chamoli",
         "state": "Uttrakhand",
         "id": 1010,
@@ -161,7 +161,7 @@
     },
     {
         "name": "Kedarnath",
-        "category": "Temple",
+        "category": "Mountains",
         "city": "Rudraprayag",
         "state": "Uttrakhand",
         "id": 1011,
@@ -177,7 +177,7 @@
     },
     {
         "name": "Kailash Mansarovar",
-        "category": "Himalayas",
+        "category": "Mountains",
         "city": "Tibet",
         "state": "Uttrakhand",
         "id": 1012,
