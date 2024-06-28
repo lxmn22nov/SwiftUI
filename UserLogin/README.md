@@ -1,7 +1,7 @@
 ### UserLogin App
-The User Login Authentication App is a robust & secure mobile app built using SwiftUI, Firebase Authentication & Firestore Database. 
-This app provides a seamless user experience for registering, sign-in's, sign-up's & managing user sessions, with real-time data synchronization, 
-ensures any changes in user data reflected across all connected devices & security at its core.
+- The User Login Authentication App is a robust & secure mobile app built using SwiftUI, Firebase Authentication & Firestore Database. 
+- This app provides a seamless user experience for registering, sign-in's, sign-up's & managing user sessions.
+- With real-time data synchronization, ensures any changes in user data reflected across all connected devices & security at its core.
 
 ### Overview:
 <table>
@@ -28,9 +28,9 @@ ensures any changes in user data reflected across all connected devices & securi
       <dl>ImageViewComponent.swift</dl>
     </td>
     <td>
-      <dl></dl>
-      <dl></dl>
-      <dl></dl>
+      <dl>This component is used for the text-fields in the LoginView & RegistrationView, like EmailAddress, Password, ConfirmPassword, FullName etc.</dl>
+      <dl>This component is used in the Profile view, settings row.</dl>
+      <dl>This component is used to use logo in multiple views with modifiers.</dl>
     </td>
   </tr>
   <tr>
@@ -65,12 +65,12 @@ ensures any changes in user data reflected across all connected devices & securi
       </dl>
     </td>
   <td>
-    <dl><b>ForgotPasswordView.swift:</b> </b>.</dl>
-    <dl><b>LoginView.swift:</b> </dl>
-    <dl><b>RegistrationView.swift:</b> </dl>
-    <dl><b>AuthViewModel.swift:</b> </dl>
-    <dl><b>ProfileView.swift:</b> </dl>
-    <dl><b>ContentView.swift:</b> </dl>
+    <dl><b>ForgotPasswordView.swift:</b>This view consists email address textfield to reset the forgotten password.</dl>
+    <dl><b>LoginView.swift:</b>This view consists text-fields like email-address, password, sign-in button & forgot password navigation button.</dl>
+    <dl><b>RegistrationView.swift:</b>This view consists text-fields like email-address, password, confirmPassword, fullName with sign-up button, registers the data directly to the Firestore Database.</dl>
+    <dl><b>AuthViewModel.swift:</b>This viewModel consists logic for userSession, functions for signIn, signOut, fetchUser, createUser, deleteAccount.</dl>
+    <dl><b>ProfileView.swift:</b>This view consists multiple sections which consists the user details, app version, sign-out and delete account sections.</dl>
+    <dl><b>ContentView.swift:</b>Delivers the app.</dl>
   </td>
   </tr>
   <tr>
@@ -79,7 +79,7 @@ ensures any changes in user data reflected across all connected devices & securi
       <dl> User.swift </dl>
     </td>
     <td>
-      <dl> </dl>
+      <dl>This model contains the struct which defines the variable which formats, the name of the user.</dl>
     </td>
   </tr>
   <tr>
