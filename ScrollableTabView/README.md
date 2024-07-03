@@ -24,19 +24,22 @@
   
   <tr>
     <td>Core Folder</td>
-    <td>
-      <ins><b>ViewModel</b></ins>
-      <dl>
-        <ul>View
-      </dl>
     <td> 
-      <ins><b>Views:</b></ins>
+      <ins><b> ViewModel </b></ins>
+      <dl><ul> ViewModel.swift </ul></dl>
+      <ins><b> Models </b></ins>
       <dl>
-        <ul>HomeView.swift</ul>
+        <dl><ul> Tab.swift </ul></dl>
+      </dl>
+      <ins><b> Views </b></ins>
+      <dl>
+        <dl><ul> HomeView.swift </ul></dl>
       </dl>
     </td>
   <td>
-    <dl><b>HomeView.swift:</b>This view consists the custom tab bar with logic, Paging view implementation.</dl>
+    <dl><b>ViewModel.swift:</b> consists offsetkey struct, extension of view and tabMask function.</dl>
+    <dl><b>Tab.swift:</b> this model consists an enum which is following caseIterable with systemImage.</dl>
+    <dl><b>HomeView.swift:</b>This view consist custom tab bar, paging view with logic.</dl>
   </td>
   </tr>
   
