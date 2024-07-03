@@ -11,6 +11,7 @@
 		5F3962422C35BC9C005C5C80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3962412C35BC9C005C5C80 /* ContentView.swift */; };
 		5F3962442C35BC9D005C5C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3962432C35BC9D005C5C80 /* Assets.xcassets */; };
 		5F3962472C35BC9D005C5C80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3962462C35BC9D005C5C80 /* Preview Assets.xcassets */; };
+		5F3962532C35D8D3005C5C80 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3962522C35D8D3005C5C80 /* DropDownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5F3962412C35BC9C005C5C80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F3962432C35BC9D005C5C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F3962462C35BC9D005C5C80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F3962522C35D8D3005C5C80 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +55,8 @@
 			children = (
 				5F39624D2C35BCE7005C5C80 /* App */,
 				5F39624E2C35BCEF005C5C80 /* Assets */,
+				5F3962502C35D899005C5C80 /* Core */,
 				5F3962452C35BC9D005C5C80 /* Preview Content */,
-				5F39624F2C35BCF7005C5C80 /* Root */,
 			);
 			path = DropDownPicker;
 			sourceTree = "<group>";
@@ -89,6 +91,23 @@
 				5F3962412C35BC9C005C5C80 /* ContentView.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		5F3962502C35D899005C5C80 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5F39624F2C35BCF7005C5C80 /* Root */,
+				5F3962512C35D8A3005C5C80 /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5F3962512C35D8A3005C5C80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F3962522C35D8D3005C5C80 /* DropDownView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +182,7 @@
 			files = (
 				5F3962422C35BC9C005C5C80 /* ContentView.swift in Sources */,
 				5F3962402C35BC9C005C5C80 /* DropDownPickerApp.swift in Sources */,
+				5F3962532C35D8D3005C5C80 /* DropDownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
