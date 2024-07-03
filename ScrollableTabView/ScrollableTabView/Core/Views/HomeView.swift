@@ -42,7 +42,7 @@ struct HomeView: View {
             
             /// Custom Tab Bar.
             CustomTabBar()
-            
+             
             /// Paging View using ios 17 APIs.
             GeometryReader {
                 let size = $0.size
