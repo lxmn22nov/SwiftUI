@@ -77,5 +77,4 @@ Snippets of the app.
 
 ### Glimpse of App
 
-
-
+https://github.com/lxmn22nov/SwiftUI/assets/126524753/19d22931-59c7-4873-92ec-9ab06d6339ed
