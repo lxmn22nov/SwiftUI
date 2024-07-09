@@ -15,7 +15,6 @@
 		5F94ED9B2C3D40FF00D39CC1 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94ED9A2C3D40FF00D39CC1 /* APIKey.swift */; };
 		5F94EDA12C3D460000D39CC1 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 5F94EDA02C3D460000D39CC1 /* GoogleGenerativeAI */; };
 		5F94EDA42C3D550E00D39CC1 /* WelcomeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94EDA32C3D550E00D39CC1 /* WelcomeTitleView.swift */; };
-		5F94EDA62C3D557F00D39CC1 /* PromptFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94EDA52C3D557F00D39CC1 /* PromptFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		5F94ED982C3D3FE600D39CC1 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
 		5F94ED9A2C3D40FF00D39CC1 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		5F94EDA32C3D550E00D39CC1 /* WelcomeTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTitleView.swift; sourceTree = "<group>"; };
-		5F94EDA52C3D557F00D39CC1 /* PromptFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				5F94EDA32C3D550E00D39CC1 /* WelcomeTitleView.swift */,
-				5F94EDA52C3D557F00D39CC1 /* PromptFieldView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -198,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F94EDA62C3D557F00D39CC1 /* PromptFieldView.swift in Sources */,
 				5F94ED8A2C3D38B000D39CC1 /* ContentView.swift in Sources */,
 				5F94ED9B2C3D40FF00D39CC1 /* APIKey.swift in Sources */,
 				5F94EDA42C3D550E00D39CC1 /* WelcomeTitleView.swift in Sources */,
